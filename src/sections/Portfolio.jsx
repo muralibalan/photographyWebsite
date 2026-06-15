@@ -6,17 +6,17 @@ const features = [
   {
     title: 'Temple moments & candid rituals',
     subtitle: 'Rich detail, warm color, and authentic expressions from every ceremony.',
-    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',
+    image: 'public/Temple-Wedding-Photography.jpg',
   },
   {
     title: 'Editorial portraits & family frames',
     subtitle: 'Elegant, graceful portraits with flattering light and thoughtful composition.',
-    image: 'https://images.unsplash.com/photo-1516875203420-9d5f3fd63e6a?auto=format&fit=crop&w=1200&q=80',
+    image: 'public/wedding9.jpg',
   },
   {
     title: 'Reception highlights & atmosphere',
     subtitle: 'Classic storytelling that honors both celebration and quiet connection.',
-    image: 'https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=1200&q=80',
+    image: 'public/protfolio.jpg',
   },
 ];
 

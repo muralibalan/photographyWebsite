@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import galleryData from '../data/galleryData.js';
 import CloseIcon from '@mui/icons-material/Close';
 
-const categories = ['All', 'Weddings', 'Pre-Weddings', 'Portraits', 'Reception', 'Candid Moments'];
+const categories = ['All', 'Weddings', 'Pre-Weddings', 'Reception', 'Candid Moments'];
 
 export default function Gallery() {
   const [value, setValue] = useState('All');
@@ -43,7 +43,7 @@ export default function Gallery() {
           {filtered.map((item, index) => (
             <ImageListItem key={item.id} sx={{ mb: 2, cursor: 'pointer', overflow: 'hidden', borderRadius: 3 }} onClick={() => setSelected(item)}>
               <motion.img
-                src={`${item.src}&w=800&q=80`}
+                src={item.src}
                 alt={item.title}
                 loading="lazy"
                 initial={{ opacity: 0, y: 30 }}
