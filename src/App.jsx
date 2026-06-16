@@ -5,8 +5,8 @@ import themeConfig from './theme/theme.js';
 import Navbar from './sections/Navbar.jsx';
 import Hero from './sections/Hero.jsx';
 import Portfolio from './sections/Portfolio.jsx';
-import Gallery from './sections/Gallery.jsx';
 import About from './sections/About.jsx';
+import Gallery from './sections/Gallery.jsx';
 import Testimonials from './sections/Testimonials.jsx';
 import Packages from './sections/Packages.jsx';
 import ContactSection from './sections/ContactSection.jsx';
@@ -30,8 +30,8 @@ function App() {
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <Hero />
           <Portfolio />
-          <Gallery />
           <About />
+          <Gallery/>
           <Testimonials />
           <Packages />
           <ContactSection />
